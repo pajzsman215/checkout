@@ -1,0 +1,34 @@
+{
+  "name": "checkout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pajzsman215/checkout.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "SQL"
+  ],
+  "author": "Jozsef Palosi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pajzsman215/checkout/issues"
+  },
+  "homepage": "https://github.com/pajzsman215/checkout#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
